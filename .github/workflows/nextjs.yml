@@ -58,10 +58,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-      - name: Install pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@latest --activate
+      - name: Install pnpm manually
+        run: npm install -g pnpm
+
       - name: Verify pnpm installation
         run: pnpm --version
       - name: Setup Pages
