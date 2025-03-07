@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "next start",
-    "build": "next build",
-    "dev": "next dev",
-    "lint": "next lint",
+    "start": "pnpm start",
+    "build": "pnpm build",
+    "dev": "pnpm dev",
+    "lint": "pnpm lint",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
