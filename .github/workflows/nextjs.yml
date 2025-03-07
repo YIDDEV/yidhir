@@ -60,6 +60,10 @@ jobs:
           cache: 'pnpm'
           check-latest: true
           registry-url: 'https://registry.npmjs.org/'
+      - name: Install pnpm
+        run: corepack enable && corepack prepare pnpm@latest --activate
+      - name: Verify pnpm installation
+        run: pnpm --version
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
