@@ -5,10 +5,18 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import Link from "next/link";
 import Markdown from "react-markdown";
+import { motion } from "framer-motion";
+
 
 const BLUR_FADE_DELAY = 0.04;
+const waveAnimation = {
+  initial: { rotate: 0 },
+  animate: {
+    rotate: [0, 20, 0, -20, 0],
+    transition: { repeat: Infinity, duration: 1.2 },
+  },
+};
 
 export default function Page() {
   return (
@@ -16,19 +24,30 @@ export default function Page() {
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
-              <BlurFadeText
-                className="max-w-[600px] md:text-xl"
-                delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
-            </div>
+          <div className="flex flex-col flex-1 space-y-3">
+            {/* Title with animation */}
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="text-4xl font-extrabold tracking-tighter sm:text-6xl xl:text-7xl bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
+            >
+              Hi, I'm {DATA.name.split(" ")[0]}{" "}
+              <motion.span {...waveAnimation} className="inline-block">
+                👋
+              </motion.span>
+            </motion.h1>
+
+            {/* Description*/}
+            <motion.p
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.2, duration: 1 }}
+              className="max-w-[600px] text-lg md:text-xl text-gray-300 leading-relaxed"
+            >
+              {DATA.description}
+            </motion.p>
+          </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
