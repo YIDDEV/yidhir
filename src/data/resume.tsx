@@ -12,7 +12,7 @@ export const DATA = {
   summary:
   "With **two Master's** degrees in Visual Computing and Vision & Intelligent Systems, I specialize in **Computer Vision** and **Machine Learning**.My experience spans R&D roles in medical imaging, time-series classification, and TinyML, where I tackled real-world challenges through innovative AI solutions.\n\n" +
   "Always eager to take on new challenges. **I’m open to exciting opportunities to push the boundaries of AI.**",
-  avatarUrl: "../public/me.png",
+  avatarUrl: "/yidhir/me.png",
   skills: [
     "Python",
     "Java",

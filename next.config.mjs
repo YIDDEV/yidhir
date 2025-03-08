@@ -3,7 +3,8 @@
  */
 
 const nextConfig = {
-  basePath: '/yidhir',
+  basePath: "/yidhir",
+  assetPrefix: "/yidhir",
   output: 'export',
   distDir: 'dist',
   reactStrictMode: true,
