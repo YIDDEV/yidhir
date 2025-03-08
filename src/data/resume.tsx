@@ -113,7 +113,7 @@ export const DATA = {
       "I worked on the classification of suspicious lung nodules using AI approaches. I developed a semi-3D classification system for CT scans of lung nodules and implemented a Capsule Network (CapsNet) model from scratch to enhance detection accuracy. Additionally, I applied data augmentation techniques to improve model robustness and integrated advanced classification methods, including Game Theory applications. To facilitate clinical usage, I created a desktop application designed to assist clinicians in nodule classification."
     },
     {
-      company: "Laboratoire de Recherche en Intelligence Artificielle (LRIA)",
+      company: "Laboratoire de Recherche en Intelligence Artificielle",
       href: "https://lria.usthb.dz/",
       badges: [],
       location: "16111 Bab Ezzouar, ALGERIE",
