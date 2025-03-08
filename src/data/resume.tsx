@@ -94,7 +94,7 @@ export const DATA = {
       badges: [],
       location: "91120 PALAISEAU, FRANCE",
       title: "R&D Deep Learning Engineer",
-      logoUrl: "/system-x-logo.jpg",
+      logoUrl: "/yidhir/system-x-logo.jpg",
       start: "March 2023",
       end: "August 2023",
       description:
@@ -106,7 +106,7 @@ export const DATA = {
       href: "https://lria.usthb.dz/",
       location: "16111 Bab Ezzouar, ALGERIE",
       title: "Computer Vision Engineer",
-      logoUrl: "/lria_logo.jpeg",
+      logoUrl: "/yidhir/lria_logo.jpeg",
       start: "February 2023",
       end: "July 2023",
       description:
@@ -118,7 +118,7 @@ export const DATA = {
       badges: [],
       location: "16111 Bab Ezzouar, ALGERIE",
       title: "Computer Vision Engineer",
-      logoUrl: "/lria_logo.jpeg",
+      logoUrl: "/yidhir/lria_logo.jpeg",
       start: "March 2021",
       end: "July 2021",
       description:
@@ -131,7 +131,7 @@ export const DATA = {
       school: "University of Paris Cité (Ex : Paris Descartes)",
       href: "https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/informatique-K2NDIF4R/master-informatique-parcours-vision-et-machine-intelligente-JT5O4IEX.html",
       degree: "Master’s Degree in Vision and Intelligent Systems",
-      logoUrl: "/pcite.png",
+      logoUrl: "/yidhir/pcite.png",
       start: "2023",
       end: "2024",
     },
@@ -139,7 +139,7 @@ export const DATA = {
       school: "University of Sciences and Technology Houari Boumediene",
       href: "https://finfo.usthb.dz/index.php/master-informatique-visuelle/",
       degree: "Master’s Degree in Visual Computing",
-      logoUrl: "/usthb.png",
+      logoUrl: "/yidhir/usthb.png",
       start: "2021",
       end: "2023",
     },
@@ -147,7 +147,7 @@ export const DATA = {
       school: "University of Sciences and Technology Houari Boumediene",
       href: "https://finfo.usthb.dz/index.php/licence-isil/",
       degree: "Bachelor's Degree in Computer Science",
-      logoUrl: "/usthb.png",
+      logoUrl: "/yidhir/usthb.png",
       start: "2018",
       end: "2021",
     },
@@ -175,7 +175,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/UNETR.png",
+      image: "/yidhir/UNETR.png",
       video:"",
     },
     {
@@ -198,7 +198,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "wrfcm.mp4",
+      video: "/yidhir/wrfcm.mp4",
     },
     {
       title: "EasyNodule - AI-Driven Pulmonary Nodule Classification",
@@ -228,7 +228,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "easynodule.mp4",
+      video: "/yidhir/easynodule.mp4",
     },
     {
       title: "Medical Image Segmentation using U-Net",
@@ -253,7 +253,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:"/unet.png",
+      image:"/yidhir/unet.png",
       video:"",
     },
     {
@@ -278,7 +278,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "taiv2.mp4",
+      video: "/yidhir/taiv2.mp4",
     },
     {
       title: "Hand Gesture Recognition using TinyML",
@@ -304,7 +304,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video:"arduino.mp4",
+      video:"/yidhir/arduino.mp4",
     },
     
   ],
