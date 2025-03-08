@@ -95,8 +95,8 @@ export const DATA = {
       location: "91120 PALAISEAU, FRANCE",
       title: "R&D Deep Learning Engineer",
       logoUrl: "/yidhir/system-x-logo.jpg",
-      start: "March 2023",
-      end: "August 2023",
+      start: "Mar 2023",
+      end: "Aug 2023",
       description:
       "I worked on time-series classification using deep learning for gait mode recognition in the context of controlling a robotic orthosis. I implemented a data qualification process to detect potential issues and artifacts, ensuring high-quality inputs for model training. Additionally, I developed a benchmark of multiple deep learning architectures, including LSTM Encoder-Decoder and CNN-LSTM Encoder-Decoder, for real-time multi-horizon gait mode classification. To enhance model interpretability, I analyzed the latent space, uncovering patterns with potential applications in assessing gait patterns for rehabilitation patients." 
     },
@@ -107,8 +107,8 @@ export const DATA = {
       location: "16111 Bab Ezzouar, ALGERIE",
       title: "Computer Vision Engineer",
       logoUrl: "/yidhir/lria_logo.jpeg",
-      start: "February 2023",
-      end: "July 2023",
+      start: "Feb 2023",
+      end: "Jul 2023",
       description:
       "I worked on the classification of suspicious lung nodules using AI approaches. I developed a semi-3D classification system for CT scans of lung nodules and implemented a Capsule Network (CapsNet) model from scratch to enhance detection accuracy. Additionally, I applied data augmentation techniques to improve model robustness and integrated advanced classification methods, including Game Theory applications. To facilitate clinical usage, I created a desktop application designed to assist clinicians in nodule classification."
     },
@@ -119,8 +119,8 @@ export const DATA = {
       location: "16111 Bab Ezzouar, ALGERIE",
       title: "Computer Vision Engineer",
       logoUrl: "/yidhir/lria_logo.jpeg",
-      start: "March 2021",
-      end: "July 2021",
+      start: "Mar 2021",
+      end: "Jul 2021",
       description:
       "I developed a fall detection application for elderly people, focusing on real-time motion analysis. The system used background subtraction to isolate moving objects from static elements in the scene and applied a Gaussian filter to reduce video noise and enhance image sharpness. Detection and tracking were based on the size of regions of interest and bounding boxes around individuals. Additionally, I integrated center of mass calculations to improve fall detection accuracy and minimize false alarms."
     },
@@ -232,7 +232,7 @@ export const DATA = {
     },
     {
       title: "Medical Image Segmentation using U-Net",
-      href: "https://automatic.chat",
+      href: "https://github.com/Y1D1R",
       dates: "Jan 2024",
       active: true,
       description:
@@ -258,7 +258,7 @@ export const DATA = {
     },
     {
       title: "Gastrointestinal Infection Detection using Endoscopic Images",
-      href: "https://magicui.design",
+      href: "https://github.com/Y1D1R",
       dates: "Dec 2021 - Jan 2022",
       active: true,
       description:
