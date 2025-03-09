@@ -95,8 +95,8 @@ export const DATA = {
       location: "91120 PALAISEAU, FRANCE",
       title: "R&D Deep Learning Engineer",
       logoUrl: "/yidhir/system-x-logo.jpg",
-      start: "Mar 2023",
-      end: "Aug 2023",
+      start: "Mar 2024",
+      end: "Aug 2024",
       description:
       "I worked on time-series classification using deep learning for gait mode recognition in the context of controlling a robotic orthosis. I implemented a data qualification process to detect potential issues and artifacts, ensuring high-quality inputs for model training. Additionally, I developed a benchmark of multiple deep learning architectures, including LSTM Encoder-Decoder and CNN-LSTM Encoder-Decoder, for real-time multi-horizon gait mode classification. To enhance model interpretability, I analyzed the latent space, uncovering patterns with potential applications in assessing gait patterns for rehabilitation patients." 
     },
