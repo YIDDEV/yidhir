@@ -89,6 +89,18 @@ export const DATA = {
 
   work: [
     {
+  company: "Cabinet d’Expert-Comptable (Paris)",
+  href: "", 
+  badges: ["Freelance"],
+  location: "Paris, France",
+  title: "Python Developer",
+  logoUrl: "/yidhir/cabinet.png", 
+  start: "Jan 2025",
+  end: "Jul 2025",
+  description:
+    "Developed an interactive mandate management tool for a Paris-based accounting firm. I built a Python pipeline connected to a SQL database to automate mandate generation, implemented an interactive dashboard using Streamlit and Plotly Express for real-time tracking and prioritization, and secured access via IP filtering. I also created a banking data processing module with label categorization for simplified accounting, deployed the tool locally with an admin-friendly interface, and provided operational support to staff."
+},
+    {
       company: "IRT SystemX",
       href: "https://www.irt-systemx.fr/",
       badges: [],
