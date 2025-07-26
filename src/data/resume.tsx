@@ -141,7 +141,7 @@ export const DATA = {
   education: [
     {
       school: "University of Paris Cité (Ex : Paris Descartes)",
-      href: "https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/informatique-K2NDIF4R/master-informatique-parcours-vision-et-machine-intelligente-JT5O4IEX.html",
+      href: "https://math-info.u-paris.fr/master-informatique/parcours-vision-et-machine-intelligente/",
       degree: "Master’s Degree in Vision and Intelligent Systems",
       logoUrl: "/yidhir/pcite.png",
       start: "2023",
